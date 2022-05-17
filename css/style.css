@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+section{
+    padding: 25px 20px; 
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+
+figure > img{
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+figure > img:hover{
+}
+
+.eye{
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.eye > img{
+    max-width: 270px;
+    max-height:270px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    opacity:0
+}
+
+.eye > img:hover{
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.eye:hover{
+    background-color: hsl(178, 100%, 50%,0.5);
+}
+
+figcaption{
+ padding: 15px 0;
+ color: hsl(215, 51%, 70%);
+ line-height: 1.5;
+}
+
+figcaption > h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    padding: 0 0 15px 0;
+}
+
+figcaption > h1:hover{
+    color: hsl(178, 100%, 50%);
+    transition: 0.7s ease-in-out;
+}
+
+.caracters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    padding-bottom: 20px;
+}
+
+.eth{
+    display: flex;
+    flex-direction: row;
+}
+
+.eth > p{
+    margin-left: 10px;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+.clock{
+    display: flex;
+    flex-direction: row;
+}
+
+.clock > img{
+    width: 20px;
+}
+
+.clock > p{
+    margin-left: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+footer{
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer > img{
+    width: 50px;
+    border-radius: 100%;
+    border: 2px solid hsl(0, 0%, 100%);;
+}
+
+footer > p{
+    margin-left: 15px;
+    color: hsl(215, 51%, 70%);
+}
+
+footer > p > span{
+    color: hsl(0, 0%, 100%);
+}
+
+footer > p > span:hover{
+    color: hsl(178, 100%, 50%);
+    transition: 0.7s ease-in-out;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    display: flex;
+    padding-top: 15px;
+    
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
