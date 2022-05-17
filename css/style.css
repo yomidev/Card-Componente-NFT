@@ -9,11 +9,14 @@
 
 body{
     background-color: hsl(217, 54%, 11%);
+    padding: 50px 30px;
+}
+
+main{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 30px;
+    flex-direction: column;
 }
 
 section{
@@ -137,10 +140,10 @@ footer > p > span:hover{
 .attribution { 
     font-size: 11px; 
     text-align: center; 
-    display: flex;
     padding-top: 15px;
+    color: #ffffff;
     
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 45%, 44%);
 }
